@@ -1,0 +1,57 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==============================
+# Data files (VERY IMPORTANT)
+# ==============================
+*.nc
+*.nc4
+*.hdf
+*.h5
+*.tif
+*.tiff
+*.zip
+*.grib
+*.grb
+*.grb2
+
+# Large exports
+data/
+downloads/
+EarthEngineExports/
+
+# Master dataset
+MASTER_PH_Pollution_2019_2024.nc
+
+# ==============================
+# Earthdata / API credentials
+# ==============================
+.cdsapirc
+.netrc
+earthengine/
+*.json
+credentials.json
+
+# ==============================
+# OS / IDE
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
